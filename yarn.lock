@@ -1233,6 +1233,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lancaster-stemmer@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "lancaster-stemmer@npm:2.1.0"
+  bin:
+    lancaster-stemmer: cli.js
+  checksum: 10c0/d34ef0461e74461a1a0723f79abd0a11cfae9fb3af93d82e0aa92a5371e996e4fc0b80644fe61040fa7a6182731bc890681ca7f489f4cf6f78b71d36a182bb85
+  languageName: node
+  linkType: hard
+
 "lru-cache@npm:^10.0.1, lru-cache@npm:^10.2.0":
   version: 10.4.3
   resolution: "lru-cache@npm:10.4.3"
@@ -1735,6 +1744,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"stemmer@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "stemmer@npm:2.0.1"
+  bin:
+    stemmer: cli.js
+  checksum: 10c0/e91a6c4c13190bb242290d10ef34db0cbc0c2b9a58ec00c9e6dc23d056389163d3cafcbf54f54945b33702d6fca7ac095892cebf57c35dada61ae75730a3c315
+  languageName: node
+  linkType: hard
+
 "string-width-cjs@npm:string-width@^4.2.0, string-width@npm:^4.1.0":
   version: 4.2.3
   resolution: "string-width@npm:4.2.3"
@@ -1883,7 +1901,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "vite-template-solid@workspace:."
   dependencies:
+    lancaster-stemmer: "npm:^2.1.0"
     solid-js: "npm:^1.9.5"
+    stemmer: "npm:^2.0.1"
     typescript: "npm:^5.7.2"
     vite: "npm:^6.0.0"
     vite-plugin-solid: "npm:^2.11.6"
